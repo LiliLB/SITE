@@ -1,0 +1,96 @@
+body{
+        /* background-image: url("https://i2.cdn.turner.com/money/dam/assets/150318181552-get-started-investing-780x439.jpg"); */
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Raleway', sans-serif;
+        display: inline-block;
+        
+}
+
+p{
+    text-align: justify;
+}
+.opcoes{
+        margin: 0%;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-around;
+}
+
+    
+header{
+    background-color: rgb(214, 214, 188);
+    margin-top: 0%;
+
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 43px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 100;
+
+}
+
+.cabecalhos{
+    margin-top: -30px;
+}
+
+/* .box:hover{
+    width: 20%;
+    margin: 20px 20px;
+    background: #ddd;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    line-height: 130px;
+} */
+
+.principal{
+    display: flex;
+    justify-content: center;
+    /* cursor: pointer; */
+    background-color: rgb(209, 209, 209);
+    
+    
+}    
+/* .scale{
+    transform: scale(1, 1);
+    transition: transforms ease;
+} */
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    height: 100%;
+    background-color: rgb(214, 214, 188);
+}
+
+#banana{
+    height: 520px;
+    width:1000px;
+
+}
+#frase{
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+}
+    
+
+
+#banana:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+#banana:not( :hover ){ 
+    transform: scale(1, 1);
+    transition: 0.5s;
+ }
